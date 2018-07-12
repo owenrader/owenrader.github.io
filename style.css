@@ -13,6 +13,7 @@ font-size: 25px;
 h1 {
 font-size: 70px;
 color: #777777;
+   font-family:'Times New Roman';
 }
 body {
 color: #999999;
@@ -22,4 +23,29 @@ font-size: 25px;
 }
 body {
 background: -webkit-linear-gradient(#eeeeee, #ffffff) fixed;
+   font-family:'Times New Roman';
+}
+a.button1{
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Times New Roman';
+ font-weight:300;
+ color:#FFFFFF;
+ text-align:center;
+ transition: all 0.2s;
+}
+a.button1:hover{
+ color:#000000;
+ background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+ a.button1{
+  display:block;
+  margin:0.4em auto;
+ }
 }
