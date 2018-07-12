@@ -25,7 +25,7 @@ body {
 background: -webkit-linear-gradient(#eeeeee, #ffffff) fixed;
    font-family:'Times New Roman';
 }
-a.button1{
+.button1{
  display:inline-block;
  padding:0.35em 1.2em;
  border:0.1em solid #FFFFFF;
@@ -44,7 +44,7 @@ a.button1:hover{
  background-color:#FFFFFF;
 }
 @media all and (max-width:30em){
- a.button1{
+ .button1{
   display:block;
   margin:0.4em auto;
  }
