@@ -20,9 +20,7 @@ body {
 color: #999999;
 font-family: "Times New Roman";
 }
-.all {
-font-size: 25px;
-}
+
 body {
 background: white;
 background: linear-gradient(#eeeeee, #ffffff) fixed;
@@ -64,4 +62,5 @@ background-color: #FFFFFF;
 }
 p {
 text-align: center;
+font-size: 25px;
 }
