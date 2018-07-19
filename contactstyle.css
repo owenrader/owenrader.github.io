@@ -1,0 +1,37 @@
+.all {
+    text-align: center;
+}
+body {
+    background: white;
+    background: linear-gradient(#eeeeee, #ffffff) fixed;
+    background: -webkit-linear-gradient(#eeeeee, #ffffff) fixed;
+    background: -moz-linear-gradient(#eeeeee, #ffffff) fixed;
+}
+.title {
+    font-size: 40px;
+    padding: -25px auto;
+    margin: -30px auto -30px auto;
+}
+.text {
+    margin: 10px;
+    box-sizing: border-box;
+    width: 300px;
+    resize: none;
+    border-radius: 5px;
+    font-family: "Times New Roman";
+}
+.email { 
+    margin: -10px 0 0px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: "Times New Roman";
+    margin: 10px;
+}
+.subject {
+    border-radius: 5px;
+    font-family: "Times New Roman";
+}
+.submit {
+    border-radius: 5px;
+    font-family: "Times New Roman";
+}
